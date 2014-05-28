@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F5A925DC18DAAE43001FF1F9 /* DieLabelDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DieLabelDelegate.h; sourceTree = "<group>"; };
 		F5C2F48618DA41DA00A49108 /* Farkle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farkle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C2F48918DA41DA00A49108 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F5C2F48B18DA41DA00A49108 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -128,6 +129,7 @@
 				F5C2F49018DA41DA00A49108 /* Supporting Files */,
 				F5C2F4C018DA42B700A49108 /* DieLabel.h */,
 				F5C2F4C118DA42B700A49108 /* DieLabel.m */,
+				F5A925DC18DAAE43001FF1F9 /* DieLabelDelegate.h */,
 			);
 			path = Farkle;
 			sourceTree = "<group>";
@@ -478,6 +480,7 @@
 				F5C2F4BA18DA41DA00A49108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5C2F4BB18DA41DA00A49108 /* Build configuration list for PBXNativeTarget "FarkleTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +489,7 @@
 				F5C2F4BD18DA41DA00A49108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -30,7 +30,12 @@
 
 -(IBAction)labelWasTapped:(id)sender
 {
-    NSLog(@"Tapped");
+    [self.delegate didChooseDie:self];
+}
+
+-(void)roll
+{
+    self.text = [NSString stringWithFormat:@"%d", arc4random_uniform(6) + 1];
 }
 
 @end

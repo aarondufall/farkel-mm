@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fV0-AP-vte" customClass="DieLabel">
+                            <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fV0-AP-vte" customClass="DieLabel">
                                 <rect key="frame" x="146" y="273" width="28" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -28,14 +28,119 @@
                                     <outletCollection property="gestureRecognizers" destination="qnh-6D-aXu" appends="YES" id="XOY-zW-oeg"/>
                                 </connections>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nV3-EE-yMu" userLabel="Die Label - 2" customClass="DieLabel">
+                                <rect key="frame" x="146" y="234" width="28" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ebM-I1-662" appends="YES" id="tZF-UQ-r9d"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jKk-QD-557" userLabel="Die Label - 3" customClass="DieLabel">
+                                <rect key="frame" x="146" y="193" width="28" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="vEl-z5-OjY" appends="YES" id="BsE-eJ-9DD"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxn-dM-8fM" userLabel="Die Label - 4" customClass="DieLabel">
+                                <rect key="frame" x="146" y="153" width="28" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Ile-Hh-wCQ" appends="YES" id="nbB-k3-OWW"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gQ-vu-MVN" userLabel="Die Label - 5" customClass="DieLabel">
+                                <rect key="frame" x="146" y="113" width="28" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="WSO-j5-jq4" appends="YES" id="quv-jt-hYO"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="82a-5x-Eqs" userLabel="Die Label - 6" customClass="DieLabel">
+                                <rect key="frame" x="146" y="315" width="28" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Hma-CH-wOB" appends="YES" id="dv8-DU-Zch"/>
+                                </connections>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHX-kH-WlS">
+                                <rect key="frame" x="145" y="387" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Roll">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onRollButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iFk-CH-zv2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crc-Ju-Rix">
+                                <rect key="frame" x="139" y="54" width="45" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="userScoreLabel" destination="crc-Ju-Rix" id="H8L-TO-RRo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="qnh-6D-aXu" userLabel="Tap Gesture Recognizer(1)">
                     <connections>
                         <action selector="labelWasTapped:" destination="fV0-AP-vte" id="zot-Xw-lzF"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ebM-I1-662" userLabel="Tap Gesture Recognizer(2)">
+                    <connections>
+                        <action selector="labelWasTapped:" destination="nV3-EE-yMu" id="HfC-bi-A0R"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="vEl-z5-OjY" userLabel="Tap Gesture Recognizer(3)">
+                    <connections>
+                        <action selector="labelWasTapped:" destination="jKk-QD-557" id="yRn-1t-20r"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Ile-Hh-wCQ" userLabel="Tap Gesture Recognizer(4)">
+                    <connections>
+                        <action selector="labelWasTapped:" destination="wxn-dM-8fM" id="0Vk-EY-xVZ"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="WSO-j5-jq4" userLabel="Tap Gesture Recognizer(5)">
+                    <connections>
+                        <action selector="labelWasTapped:" destination="2gQ-vu-MVN" id="xk7-Dj-Xkn"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Hma-CH-wOB" userLabel="Tap Gesture Recognizer(6)">
+                    <connections>
+                        <action selector="labelWasTapped:" destination="82a-5x-Eqs" id="AUO-HN-Ibt"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
